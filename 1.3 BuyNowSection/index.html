@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tail Listing</title>
+
+
+    <!-- Montserrat font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href ="dist/output.css">
+
 </head>
 <body>
     <!-- nav bar -->
@@ -28,8 +36,17 @@
     </nav>
 
     <!-- background image -->
-    <div class="relative flex items-center justify-center min-h-screen bg-cover bg-center" style="background-image: url('./src/assets/Mask_Group.jpg');">
-        <div class="bg-black/30 absolute inset-0 h-full w-full">a</div>
+    <div class="relative flex items-center justify-end min-h-screen bg-cover bg-center z-10" style="background-image: url('./src/assets/Mask_Group.jpg');">
+        <div class="bg-black/30 absolute inset-0 h-full w-full -z-10"></div>
+        <div class="bg-[#DFE9F4] max-w-lg rounded-md p-8 space-y-4 shadow-lg mr-20 p-[45px]">
+            <p class="font-montserrat font-semibold text-gray-600">New Arrival</p>
+            <p class="font-montserrat font-bold text-5xl text-[#054C73]">Discover Our New Colletion</p>
+            <p class="font-montserrat text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+            <button class="py-3 px-6 round-full bg-[#054C73] text-white text-sm font-semibold uppercase rounded-[50px]">
+                Buy Now
+            </button>
+        </div>
     </div>
+    
 </body>
 </html>
