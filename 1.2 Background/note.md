@@ -42,6 +42,16 @@ Use justify-center to justify items along the center of the container’s main a
     <div style="background-color: #1a535c; color: white; text-align: center; padding: 1rem;">03</div>
 </div>
 
+### `justify-end`
+
+Use justify-end to justify items against the end of the container’s main axis:
+
+<div style="display: flex; justify-content: end; background-color: #f0f0f0; padding: 1rem;">
+    <div style="background-color: #ff6b6b; color: white; text-align: center; padding: 1rem; margin-right: 1rem;">01</div>
+    <div style="background-color: #4ecdc4; color: white; text-align: center; padding: 1rem; margin-right: 1rem;">02</div>
+    <div style="background-color: #1a535c; color: white; text-align: center; padding: 1rem;">03</div>
+</div>
+
 ### `min-h-screen`
 
 min-h-screen	min-height: 100vh;
@@ -65,10 +75,12 @@ min-h-screen	min-height: 100vh;
     <!-- Content here -->
 </div>
 
-<div style="background-image: url('https://th.bing.com/th?id=ORMS.1e2bb5e83fe2e1e3be082cfa22d6c311&pid=Wdp&w=612&h=328&qlt=90&c=1&rs=1&dpr=2&p=0'); background-size: cover; background-position: top left; height: 300px;">
+<br>
+
+`bg-bottom` is in background position
+
+<div style="background-image: url('https://th.bing.com/th?id=ORMS.1e2bb5e83fe2e1e3be082cfa22d6c311&pid=Wdp&w=612&h=328&qlt=90&c=1&rs=1&dpr=2&p=0'); background-size: cover; background-position: bottom left; height: 300px;">
     <!-- Content here -->
 </div>
-
-
 
 -----
