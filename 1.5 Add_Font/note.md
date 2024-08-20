@@ -9,23 +9,17 @@ edit tailwind.config.js
 
 
 Add the Tailwind to src/input.css
-
-```html
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-```
 
 
 npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 
 As a result:
 
-    src/css/input.css
-
-    src/css/output.css
+src/css/input.css
+src/css/output.css
 
 
 ----
@@ -35,15 +29,7 @@ As a result:
 
 
 #### Difference:
-
-##### Key Points
-
-`src` directory
-
-`root` directory
-
 - **`./src/**/*.{html,js}`** scans all `.html` and `.js` files within the `src` directory and any subdirectories.
-  
 - **`*.{html,js}`** scans only `.html` and `.js` files in the root directory, excluding any files in subdirectories. 
 
 The choice between the two depends on where your HTML and JavaScript files are located in your project structure.
@@ -51,8 +37,6 @@ The choice between the two depends on where your HTML and JavaScript files are l
 
 
 ## How to use configuration?
-
-It should be in a seperate file. 
 
 ### Content
 
