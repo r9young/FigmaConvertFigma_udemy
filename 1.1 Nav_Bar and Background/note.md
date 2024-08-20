@@ -78,17 +78,17 @@ Use justify-between to justify items along the container’s main axis such that
 
 ------
 
-### ul & li
+## ul & li
 
 #### `flex gap-6 text-sm`
 
-`flex` 
+**`flex`** 
 
-flex: Makes the <ul> a flex container, and its child elements (the <li> items) will be displayed in a row (horizontally) by default.
+**flex**: Makes the `<ul>` a flex container, and its child elements (the `<li>` items) will be displayed in a row (horizontally) by default.
 
 horizontal = in a row
 
-`gap-6`
+**`gap-6`**
 
 Use the gap-* utilities to change the gap between both rows and columns in grid and flexbox layouts.
 
