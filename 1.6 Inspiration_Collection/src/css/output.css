@@ -599,6 +599,10 @@ video {
   margin-right: 5rem;
 }
 
+.mt-16{
+  margin-top: 4rem;
+}
+
 .flex{
   display: flex;
 }
@@ -683,6 +687,18 @@ video {
   border-radius: 0.375rem;
 }
 
+.rounded-bl-3xl{
+  border-bottom-left-radius: 1.5rem;
+}
+
+.rounded-tl-3xl{
+  border-top-left-radius: 1.5rem;
+}
+
+.rounded-br-3xl{
+  border-bottom-right-radius: 1.5rem;
+}
+
 .bg-\[\#054C73\]{
   --tw-bg-opacity: 1;
   background-color: rgb(5 76 115 / var(--tw-bg-opacity));
@@ -713,10 +729,6 @@ video {
 
 .bg-center{
   background-position: center;
-}
-
-.p-12{
-  padding: 3rem;
 }
 
 .p-8{
